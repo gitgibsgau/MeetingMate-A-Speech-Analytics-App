@@ -1,15 +1,22 @@
 {
-  "name": "NodeJS_Test",
+  "name": "app.js",
   "version": "1.0.0",
-  "description": "",
-  "main": "SpeakerRecognition.js",
+  "description": "\"# MeetingMate---FrontEnd\" \r \"# MeetingMate---FrontEnd\"",
+  "main": "hello.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natashadsouza/MeetingMate---FrontEnd.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natashadsouza/MeetingMate---FrontEnd/issues"
+  },
+  "homepage": "https://github.com/natashadsouza/MeetingMate---FrontEnd#readme",
   "dependencies": {
-    "request": "^2.79.0"
+    "express": "^4.15.2"
   }
 }

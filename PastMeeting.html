@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meeting Form</title>
+
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta charset="UTF-8">
+        <meta name="description" content="Page" />
+
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+        <link href="assets/plugins/pace-master/themes/blue/pace-theme-flash.css" rel="stylesheet"/>
+        <link href="assets/plugins/uniform/css/uniform.default.min.css" rel="stylesheet"/>
+        <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/plugins/fontawesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/plugins/line-icons/simple-line-icons.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/plugins/offcanvasmenueffects/css/menu_cornerbox.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/plugins/waves/waves.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/plugins/switchery/switchery.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/plugins/3d-bold-navigation/css/style.css" rel="stylesheet" type="text/css"/>
+
+
+        <link href="assets/css/modern.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/themes/green.css" class="theme-color" rel="stylesheet" type="text/css"/>
+
+
+        <script src="assets/plugins/3d-bold-navigation/js/modernizr.js"></script>
+        <script src="assets/plugins/offcanvasmenueffects/js/snap.svg-min.js"></script>
+
+
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+
+    </head>
+     <body class="page-header-fixed">
+        <div class="overlay"></div>
+
+       <form class="search-form" action="#" method="GET">
+            <div class="input-group">
+                <input type="text" name="search" class="form-control search-input" placeholder="Search...">
+                <span class="input-group-btn">
+                    <button class="btn btn-default close-search waves-effect waves-button waves-classic" type="button"><i class="fa fa-times"></i></button>
+                </span>
+            </div><!-- Input Group -->
+        </form><!-- Search Form -->
+        <main class="page-content content-wrap">
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <div class="sidebar-pusher">
+                        <a href="javascript:void(0);" class="waves-effect waves-button waves-classic push-sidebar">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                    <div class="logo-box">
+                        <a href="dash.html" class="logo-text"><span>MeetingMate</span></a>
+                    </div><!-- Logo Box -->
+                    <div class="search-button">
+                        <a href="javascript:void(0);" class="waves-effect waves-button waves-classic show-search"><i class="fa fa-search"></i></a>
+                    </div>
+                    <div class="topmenu-outer">
+                        <div class="top-menu">
+                            <ul class="nav navbar-nav navbar-left">
+                                <li>
+
+                                </li>
+
+                                <li>
+
+                                </li>
+                                <li class="dropdown"> <!-- This menu is Hidden -->
+
+                            </ul> <!-- This hidden menu ends here -->
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <a href="javascript:void(0);" class="waves-effect waves-button waves-classic show-search"><i class="fa fa-search"></i></a>
+                                </li>
+
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle waves-effect waves-button waves-classic" data-toggle="dropdown">
+                                        <span class="user-name">Admin<i class="fa fa-angle-down"></i></span>
+
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-list" role="menu">
+                                        <li role="presentation"><a href="#"><i class="fa fa-user"></i>Profile</a></li>
+                                        <li role="presentation"><a href="Calendar.html"><i class="fa fa-calendar"></i>Calendar</a></li>
+
+                                        <li role="presentation" class="divider"></li>
+
+                                        <li role="presentation"><a href="Index.html"><i class="fa fa-sign-out m-r-xs"></i>Log out</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="Index.html" class="log-out waves-effect waves-button waves-classic">
+                                        <span><i class="fa fa-sign-out m-r-xs"></i>Log out</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="waves-effect waves-button waves-classic" id="showRight" style="display:none">
+                                        <i class="fa fa-comments"></i>
+                                    </a>
+                                </li>
+                            </ul><!-- Nav -->
+                        </div><!-- Top Menu -->
+                    </div>
+                </div>
+            </div><!-- Navbar -->
+             <div class="page-sidebar sidebar">
+                <div class="page-sidebar-inner slimscroll">
+                    <div class="sidebar-header">
+
+
+                        <div class="sidebar-profile">
+                        <div class="sidebar-header">
+                        <div class="sidebar-profile" style="margin-top: 10%">
+
+                            </div>
+
+                        </div></div>
+                        </div>
+                    <ul class="menu accordion-menu">
+                        <li class="active"><a href="dash.html" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-list-alt"></span><p>Main</p></a></li>
+                       <li class="droplink  "><a href="NewMeeting.html" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-upload"></span><p>Meetings</p>
+                        <span class="arrow"></span></a>
+                            <ul class="sub-menu">
+                                <li><a href="NewMeeting.html">New Meeting</a></li>
+                                <li><a href="PastMeeting.html">Past Meetings</a></li>
+
+                            </ul></li>
+                        <li class="active"><a href="reports.html" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-folder-open"></span><p>Reports</p></a>
+                        </li>
+                      <!--  <li class="active"><a href="#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-tasks"></span><p>Settings</p></a>
+                        </li> -->
+
+                    </ul>
+                </div><!-- Page Sidebar Inner -->
+            </div><!-- Page Sidebar -->
+            <div class="page-inner">
+                <div class="page-title">
+                    <h3>Meetings</h3>
+                    <div class="page-breadcrumb">
+                        <ol class="breadcrumb">
+                            <li><a href="dash.html">Home</a></li>
+                            <li class="active">Meetings</li>
+                        </ol>
+                    </div>
+                </div>
+
+        <main class="page-content">
+
+            <div class="page-inner">
+
+                <div id="main-wrapper">
+
+                        <div class="col-lg-4 center">
+
+                    <h1 style="align:middle"><b>Meetings last month</b></h1></div>
+                            <div class="row">
+                                <br>
+
+
+
+                            <div class="login-box">
+
+                                <table>
+  <tr>
+    <th>Meeting ID</th>
+    <th>Meeting Type</th>
+    <th>Date</th>
+  </tr>
+  <tr>
+    <td><a href="Scrum.html"> 01</a></td>
+    <td>Scrum</td>
+    <td>5/08/2016</td>
+  </tr>
+   <tr>
+    <td><a href="AHM.html">02</a></td>
+    <td>All Hands Meeting</td>
+    <td>5/10/2016</td>
+  </tr>
+  <tr>
+    <td><a href="PL.html">03</a></td>
+    <td>Product launch</td>
+    <td>5/24/2016</td>
+  </tr>
+  <tr>
+    <td><a href="MR.html">04</a></td>
+    <td>Monthly Review</td>
+    <td>5/31/2016</td>
+  </tr>
+</table>
+
+                        </div>
+                    </div><!-- Row -->
+                </div><!-- Main Wrapper -->
+            </div><!-- Page Inner -->
+        </main><!-- Page Content -->
+
+
+        <!-- Javascripts -->
+        <script src="assets/plugins/jquery/jquery-2.1.4.min.js"></script>
+        <script src="assets/plugins/jquery-ui/jquery-ui.min.js"></script>
+        <script src="assets/plugins/pace-master/pace.min.js"></script>
+        <script src="assets/plugins/jquery-blockui/jquery.blockui.js"></script>
+        <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+        <script src="assets/plugins/switchery/switchery.min.js"></script>
+        <script src="assets/plugins/uniform/jquery.uniform.min.js"></script>
+        <script src="assets/plugins/offcanvasmenueffects/js/classie.js"></script>
+        <script src="assets/plugins/waves/waves.min.js"></script>
+        <script src="assets/js/modern.min.js"></script>
+
+    </body>
+</html>
